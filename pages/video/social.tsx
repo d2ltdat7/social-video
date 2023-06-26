@@ -10,7 +10,9 @@ export default function SocialPost({ data }: any) {
           <meta name="viewport" content="initial-scale=1.0, width=device-width" />
           <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
           <meta name="title" key="title" content={data?.headline} />
+          <meta name="title" property="og:title" content={data?.headline}></meta>
           <meta property="og:title" key="og:title" content={data?.headline} />
+          <meta name="description" property="og:description" content="[Content description here]"></meta>
           <meta property="og:locale" key="og:locale" content="en_US" />
           <meta property="og:type" key="og:type" content="website" />
           <meta property="og:description" key="og:description" content={data?.description} />
@@ -20,7 +22,7 @@ export default function SocialPost({ data }: any) {
           <meta property="og:image:width" content="300" />
           <meta property="og:image:height" content="300" />
           <meta name="image" property="og:image" content="https://images.unsplash.com/photo-1611162616475-46b635cb6868?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8dGh1bWJuYWlsfGVufDB8fDB8fHww&w=1000&q=80"></meta>
-          <meta name="description" property="og:description" content={data?.description}></meta>
+          <meta name="description" property="og:description" content={'Hi im test description'}></meta>
           <meta name="twitter:card" content={data?.thumbnail ? data?.thumbnail : data?.company_logo} />
           <meta name="twitter:title" content={data?.headline} />
           <meta name="twitter:description" content={data?.headline} />
