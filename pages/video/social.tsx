@@ -10,9 +10,8 @@ export default function SocialPost({ data }: any) {
           <meta name="viewport" content="initial-scale=1.0, width=device-width" />
           <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
           <meta name="title" key="title" content={data?.headline} />
-          <meta name="title" property="og:title" content={data?.headline}></meta>
+          <meta name="title" property="og:title" content={'Hi im title'}></meta>
           <meta property="og:title" key="og:title" content={data?.headline} />
-          <meta name="description" property="og:description" content="[Content description here]"></meta>
           <meta property="og:locale" key="og:locale" content="en_US" />
           <meta property="og:type" key="og:type" content="website" />
           <meta property="og:description" key="og:description" content={data?.description} />
