@@ -1,0 +1,80 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+@font-face {
+  font-family: 'Right Grotesk';
+  src: local('Right Grotesk'),
+    url('/fonts/RightGrotesk/RightGrotesk-WideMedium.otf') format('opentype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Right Grotesk Bold';
+  src: local('Right Grotesk'),
+    url('/fonts/RightGrotesk/RightGrotesk-SpatialBlack.otf')
+      format('opentype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Objective';
+  src: url('/fonts/Objective/Objective-Thin.otf') format('opentype');
+  font-display: swap;
+  font-weight: 100 200;
+}
+
+@font-face {
+  font-family: 'Objective';
+  src: url('/fonts/Objective/Objective-Light.otf') format('opentype');
+  font-display: swap;
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: 'Objective';
+  src: url('/fonts/Objective/Objective-Regular.otf') format('opentype');
+  font-display: swap;
+  font-weight: 400 500;
+  /* 500 should be medium */
+}
+
+@font-face {
+  font-family: 'Objective';
+  src: url('/fonts/Objective/Objective-Medium.otf') format('opentype');
+  font-display: swap;
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: 'Objective';
+  src: url('/fonts/Objective/Objective-Bold.otf') format('opentype');
+  font-display: swap;
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: 'Objective';
+  src: url('/fonts/Objective/Objective-ExtraBold.otf') format('opentype');
+  font-display: swap;
+  font-weight: 800 900;
+}
+
+@font-face {
+  font-family: 'Objective Bold';
+  src: url('/fonts/Objective/Objective-Bold.otf') format('opentype');
+  font-display: swap;
+}

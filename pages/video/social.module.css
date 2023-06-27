@@ -1,8 +1,12 @@
+.container {
+  height: 100vh;
+  background: rgb(240, 236, 238);
+}
 .header__container {
   display: flex;
   justify-content: space-between;
   padding: 32px;
-  background: '#FFFFFF';
+  background: #FFFFFF;
   border-radius: 12px;
   align-items: center;
 }
